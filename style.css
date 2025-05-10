@@ -126,5 +126,11 @@ h1{
 }
 
 .notification-container.show{
-    transform: translateY(-50px);
+    transform: translateY(-150px);
+}
+
+@media (max-width: 768px) {
+    .notification-container{
+        bottom: -200px;
+    }
 }
